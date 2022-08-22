@@ -4,7 +4,8 @@
   "main": "index.js",
   "author": "conanak99 <huyhoang8a5@gmail.com>",
   "scripts": {
-    "dev": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch"
+    "dev": "npx tailwindcss -i ./style.css -o ./dist/output.css --watch",
+    "build": "npx tailwindcss -i ./style.css -o ./dist/output.css --minify"
   },
   "license": "MIT"
 }
